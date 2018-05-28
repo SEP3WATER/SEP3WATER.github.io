@@ -1,22 +1,22 @@
 ---
 layout:     post
-title:      Android中AIDL的使用和原理解析
+title:      Splash展示
 subtitle:   
-date:       2016-09-26
-author:     XiaoZhui Wang
+date:       2018-05-28
+author:     YIN
 header-img: img/post-bg-1.jpg
 catalog: true
 tags:
-    - Android
+    - Design
 ---
 
-写这篇文章之前，首先要感谢一下任玉刚大哥写了《Android开发艺术探索》这本书。这篇文章其实就是对书中讲解AIDL的那个小节的一个简单的总结。
 
-### Android进程间通信方式
-Android实现进程间通信的方式有很多种，比如通过Intent来传递数据，共享文件，SharedPreferences，基于Binder的Messager和AIDL，以及socket等。Binder是Android中最有特色的进程间通信方式。
 
-### Binder
-Binder主要用于进程间通信，是Android中的一个类，实现了IBinder接口。从Android应用层来说，Binder是服务端与客户端通信的媒介，当bindService一个服务的时候，服务端会返回一个包含了服务端业务调用的Binder对象，通过这个对象客户端就可以获取服务端数据或向服务端传递数据，这里的服务包括普通服务和包含了AIDL的服务。
+### 项目需求
+设计一张关于春节的闪屏页面，主要体现春节氛围
+
+### 项目目标
+符合项目
 
 在Android开发中，Binder主要用在Service中，包括AIDL、Messager。普通Service中的Binder不涉及到进程间通信，所以较为简单。Messager底层其实就是AIDL，这里选择AIDL来学习Binder的工作机制。
 
