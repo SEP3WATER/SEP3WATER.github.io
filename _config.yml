@@ -1,10 +1,10 @@
 # Site settings
-title:  一起瑶
-SEOTitle: 一起瑶的博客 | YI QIYAO's Blog
+title: 春秋大梦有限公司
+SEOTitle: 171的博客 | 171's Blog
 header-img: img/home-bg-life.jpg
 email: sep3water@163.com
-description: "开开心心一起瑶！"
-keyword: "一起瑶, YI QIYAO's Blog, 一起瑶的博客 , UI设计师"
+description: "carpe diem"
+keyword: "一起瑶, YI QIYAO's Blog, 一起瑶的博客 , 涂涂画画爱好者"
 url: "https://sep3water.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 #github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
